@@ -1,2 +1,2 @@
 export const GITHUB_URI = 'https://api.github.com/graphql'
-export const TOKEN = '890c54c7d0f148ed72645d04e0e4f0f0986ca141'
+export const TOKEN = '3bdd79d4433e0e0a531d27bd02c23ef750a4e118'
