@@ -1,0 +1,12 @@
+.header {
+  padding: 0 30px;
+  color: var(--color-white);
+}
+
+.header .content {
+  padding: 50px 30px 30px;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  background-image: linear-gradient(to top, var(--primary-color) 60%, var(--primary-color-d) 100%);
+  background-color: var(--primary-color);
+}

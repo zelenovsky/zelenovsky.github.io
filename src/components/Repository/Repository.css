@@ -1,0 +1,47 @@
+.repository {
+    margin-bottom: 5px;
+}
+
+.repository:last-of-type {
+    margin-bottom: 0;
+}
+
+.repository__link {
+    display: block;
+
+    width: 30%;
+
+    padding: 5px 10px;
+
+    border-radius: 4px;
+
+    background-color: var(--primary-color);
+    color: var(--color-white);
+
+    text-decoration: none;
+
+    transition: .2s;
+}
+
+.repository__link:hover {
+    background-color: var(--primary-color-d);
+}
+
+.repository__issues {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    display: flex;
+
+    width: 65%;
+    height: 100%;
+
+    padding-left: 10px;
+
+    border: 2px solid var(--primary-color);
+    border-radius: 4px;
+
+    overflow-y: hidden;
+    overflow-x: auto;
+}

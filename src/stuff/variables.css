@@ -1,0 +1,12 @@
+:root {
+  --color-red: #DB324D;
+  --color-red-d: #A62639;
+  --color-white: #FFF;
+  --color-black: #1d1d1d;
+
+  --primary-color: var(--color-red);
+  --primary-color-d: var(--color-red-d);
+  --button-color: var(--primary-color-d);
+
+  --main-font: 'Lato', sans-serif;
+}

@@ -1,0 +1,66 @@
+.search {
+  position: relative;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  padding-bottom: 3px;
+}
+
+.search .input-text {
+  flex-grow: 1;
+  display: block;
+  padding: 10px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0);
+  box-shadow: 0 1px 0 0 white;
+  transition: .3s ease-in-out;
+  outline: none;
+  font-family: var(--main-font);
+  font-size: 20px;
+  color: white;
+}
+
+.search .input-text:focus {
+  box-shadow: 0 2px 0 0 white;
+  background-color: rgba(255, 255, 255, .2);
+}
+
+.search .input-text:focus ~ .submit {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.search .input-text:focus ~ .message {
+  margin-left: -170px;
+  opacity: 0;
+}
+
+.search .message {
+  order: -1;
+  width: 170px;
+  opacity: 1;
+  transition: .3s ease-in-out;
+}
+
+.search .submit {
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: block;
+  width: 40px;
+  height: 100%;
+  border: none;
+  padding: 7px;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  outline: none;
+  opacity: 0;
+  pointer-events: none;
+  transition: .3s ease-in-out;
+}
+
+.search .submit:focus,
+.search .submit:hover {
+  transform: scale(1.1);
+}

@@ -1,0 +1,15 @@
+.users__count {
+    margin-bottom: 30px;
+}
+
+.users__row {
+    padding: 20px;
+    margin-bottom: 30px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    transition: .2s;
+}
+
+.users__row:hover {
+    box-shadow: 0 0 4px 0 lightgrey;
+}
